@@ -1,0 +1,22 @@
+Nadszedł czas by przekopać ogródek. Szczęśliwie dla pewnego leniwego pracownika uczelni rodzina mieszkająca naprzeciwko, urządza właśnie imprezę urodzinową swojego 6 letniego synka na które zjechała się całkiem spora gromadka dzieci. Pracownik uczelni postanowił skorzystać z okazji. Zakupił liczbę łopatek odpowiadającą liczbie dzieci na przyjęciu (n) podzielił swój ogródek na równe kwadraty i rozdał łopatki dzieciom z informacją, że w ogródku jest zakopany skarb. Niestety okazało się, że tylko te części ogródka które zostały „przeszukane” przez (n-1) dzieci są dobrze skopane a resztę trzeba poprawić. Jaka jest łączna powierzchnia wymagająca jeszcze skopania?
+
+Wejście
+
+W pierwszym wierszu wejścia znajduje się liczba całkowita (n) oznaczającą liczbę dzieci na przyjęciu. Każdy z kolejnych (n) wierszy opisuje obszar skopany przez jedno dziecko. Znajdują się w nim cztery liczby całkowite (x1,y1,x2,y2) oznaczające, że dane dziecko skopało obszar będący prostokątem, którego lewy dolny wierzchołek leży w punkcie (x1,y1) a prawy górny wierzchołek leży w punkcie (x2,y2) a boki są równoległe do osi układu współrzędnych. 
+
+Wyjście
+
+To jedna liczba całkowita oznaczająca ile kwadratów należy jeszcze przekopać. 
+
+Przykład
+
+Dla danych wejściowych:
+
+3
+0 0 5 5
+1 0 2 5
+0 1 6 3
+
+poprawnym wynikiem jest:
+
+13
